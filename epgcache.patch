@@ -1,0 +1,12 @@
+diff -Naur a/usr/include/enigma2/lib/dvb/epgcache.h b/usr/include/enigma2/lib/dvb/epgcache.h
+--- a/usr/include/enigma2/lib/dvb/epgcache.h
++++ b/usr/include/enigma2/lib/dvb/epgcache.h
+@@ -30,7 +30,7 @@
+ /* Interval between "garbage collect" cycles */
+ #define CLEAN_INTERVAL 25000    //  1 min
+ /* Restart EPG data capture */
+-#define UPDATE_INTERVAL 3600000  // 60 min
++#define UPDATE_INTERVAL 1000 // 1 sec
+ /* Time to wait after tuning in before EPG data capturing starts */
+ #define ZAP_DELAY 2000          // 2 sec
+ 
